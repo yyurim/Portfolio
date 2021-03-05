@@ -24,19 +24,6 @@ window.addEventListener("scroll", function () {
 
 });
 
-const profileImage = document.querySelector("#about-profile-image");
-
-profileImage.addEventListener("mouseenter", function () {
-    if (profileImage.src.indexOf('profile2.png')!=-1) {
-        profileImage.src  = "images/profile.png";
-    }
-});
-
-profileImage.addEventListener("mouseleave", function () {
-    if (profileImage.src.indexOf('profile.png')!=-1) {
-        profileImage.src  = "images/profile2.png";
-    }
-});
 
 
 
